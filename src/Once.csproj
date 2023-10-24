@@ -4,8 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>
+    <AssemblyName>Lost.Threading.Once</AssemblyName>
+    <RootNamespace>Lost.Threading</RootNamespace>
 
     <!-- Package stuff -->
+    <PackageId>Once</PackageId>
+    <Version>1.0.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageLicenseFile Condition="$(PackageLicenseExpression) == ''">LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
